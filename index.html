@@ -546,6 +546,10 @@
                                                 class="form-control"
                                                 id="email"
                                             />
+                                            <div
+                                                id="result"
+                                                style="color: red"
+                                            ></div>
                                         </div>
                                     </div>
                                 </div>
@@ -561,7 +565,11 @@
                                     ></textarea>
                                 </div>
                                 <div class="text-center">
-                                    <button class="btn btn-green">
+                                    <button
+                                        id="submit"
+                                        onclick="sendForm()"
+                                        class="btn btn-green"
+                                    >
                                         Contact us
                                     </button>
                                 </div>
